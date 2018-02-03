@@ -1,0 +1,62 @@
+.header-bg{
+    background: #1f8ef5;
+    width: 100%;
+    height: 100px;
+}
+aside {
+    position: absolute;
+    background: #f55c1f;
+    padding: 0px 15px 0px 15px;
+    width: 300px;
+    height: 400px;
+    left: 0px;
+    z-index: 1;
+}
+.contern{
+    background: #f59f1f;
+    width: 100%;
+    height: 500px;
+    margin: 0px 0px 10px 10px;
+}
+.right-menu {
+    float: right;
+    position: absolute;
+    background: #a71ff5;
+    width: 100px;
+    height: 400px;
+    right: 180px;
+}
+/* large tablet styles */
+@media screen and (max-width: 1024px) {
+    .right-menu {
+        right: 12px;
+    }
+}
+/* medium tablet styles */
+@media screen and (max-width: 768px) {
+    .right-menu {
+        position: relative;
+        padding: 0px 15px 0px 15px;
+        margin-bottom: 10px;
+        width: 100%;
+        height: 100px;
+        right: 0px;
+    }
+    aside {
+        position: relative;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .contern {
+        margin-left: 0px;
+    }
+}
+/* phone styles */
+@media screen and (max-width: 479px) {
+    aside {
+        position: relative;
+        width: 100%;
+        margin-bottom: 10px;
+        margin-left: 0px;
+    }
+}
