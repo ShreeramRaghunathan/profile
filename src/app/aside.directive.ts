@@ -1,10 +1,10 @@
-import { Directive } from '@angular/core';
+// import { Directive } from '@angular/core';
 
-@Directive({
-  selector: '[aside]'
-})
-export class AsideDirective {
+// @Directive({
+//   selector: '[aside]'
+// })
+// export class AsideDirective {
 
-  constructor() { }
+//   constructor() { }
 
-}
+// }

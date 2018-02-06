@@ -3,13 +3,15 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
-import { AsideDirective } from './aside.directive';
+//import { AsideDirective } from './aside.directive';
+import { MainContentComponent } from './main-content/main-content.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    AsideDirective
+    //AsideDirective,
+    MainContentComponent
   ],
   imports: [
     BrowserModule
