@@ -27,6 +27,7 @@ export class AppComponent implements OnInit
     {
       this.isDesktop = false;
     }
+    console.log(window.innerHeight+' :: '+window.innerWidth)
     if(!this.isMobile && this.isDesktop)
     {
       $(window).scroll(function(e) {      
@@ -36,7 +37,14 @@ export class AppComponent implements OnInit
         {
           $("aside, .right-menu").css({
             'position':'fixed',
+            'width':'363px',
             'top': '0px'
+          })
+          $(".right-menu").css({
+            'width':'185px',
+            'float':'right',
+            'right':'0px',
+            'left': 'auto'
           })
         }
         else
